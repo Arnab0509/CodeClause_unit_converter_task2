@@ -1,0 +1,139 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image.png");
+    
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      
+      box-sizing: border-box;
+    }
+    html{
+       font-size: 66.7%;
+    }
+    
+    a{
+      float: left;
+      list-style-type: none;
+      text-decoration: none;
+       border:0;
+      background: none;
+      display: block;
+      margin: 2rem auto;
+      margin-right: 0.8rem;
+      
+      border: 0.2rem solid #2ecc71;
+      padding: 1.4rem 6.5rem;
+      outline: none;
+      color: white;
+      border-radius: 2.4rem;
+      transition: 0.25s;
+      cursor: pointer;
+    }
+    a:hover
+    {
+    background: #2ecc71;
+    }
+    
+    .box{
+      width: 80rem;
+      padding: 4rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background: rgba(0,0,0,0.5);
+      
+    }
+    .box h1{
+        text-align: center;
+      color: #fff;
+      font-size: 5rem;
+      border: 0.2rem ;
+      font-weight: 500;
+    }
+    
+    .box h2{
+      color: #fff;
+      margin: 0rem;
+      padding-left: 34rem;
+      font-size: 2rem;
+      border: 0.5rem ;
+    }
+    
+    .text{
+        text-align: center;
+    }
+    
+    .box input[type = "text"]{
+      border:0;
+      background: none;
+      margin: auto;
+      text-align: center;
+      border: 0.2rem solid #3498db;
+      padding: 1.4rem ;
+      width: 20rem;
+      outline: none;
+      color: white;
+      border-radius: 2rem;
+      transition: 0.25s;
+    }
+    
+    .box input[type = "text"]:hover
+    {
+      width: 22rem;
+      border-color: #2ecc71;
+    }
+    
+    .box select{
+        border:0;
+      background: none;
+      margin: 2rem auto;
+      text-align: center;
+      border: 0.2rem solid #3498db;
+      padding: 1rem;
+      outline: none;
+      border-radius: 2.4rem;
+      transition: 0.25s;
+    }
+    
+    .box select:hover
+    {
+      border-color: #2ecc71;
+    }
+    
+    
+    
+    
+    
+    #inputType,#resultType{
+        width: 12rem;
+        text-align: center;
+        color: black;
+    }
+    
+  @media(max-width:996px){
+    html{
+       font-size: 65%;
+    }
+  }
+  @media(max-width:796px){
+    html{
+       font-size: 55%;
+    }
+  }
+  @media(max-width:596px){
+    html{
+       font-size: 45%;
+    }
+  }
+  @media(max-width:496px){
+    html{
+       font-size: 35%;
+    }
+  }
+  @media(max-width:280px){
+    html{
+       font-size: 20%;
+    }
+  }
